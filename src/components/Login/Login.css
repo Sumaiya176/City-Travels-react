@@ -1,0 +1,35 @@
+.login {
+    text-align: center;
+    border: 1px solid rgb(221, 207, 207);
+    padding: 14px;
+    margin: 100px 33vw;
+
+}
+
+.email, .password {
+    margin:10px;
+    border: none;
+    border-bottom: 1px solid tomato;
+}
+
+.googleLogin {
+    text-align: center;
+    padding: 14px;
+    margin:0px 280px;
+}
+
+@media only screen and (max-width: 768px) {
+    .login {
+        text-align: center;
+        border: 1px solid rgb(221, 207, 207);
+        padding: 14px;
+        margin: 50px 20vw;
+        margin-bottom: 10px;
+    
+    }
+    .googleLogin {
+        text-align: center;
+        padding: 14px;
+        margin:0px 80px;
+    }
+}

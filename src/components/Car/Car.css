@@ -1,0 +1,18 @@
+.card-size {
+    height:230px;
+    width: 225px;
+    border-radius: 10px;;
+}
+.img {
+    height:200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.car-name {
+    text-align: center; 
+}
+
+.whole-card {
+    padding-bottom: 100px;
+}

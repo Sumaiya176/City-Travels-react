@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+ background-image: url("https://lh3.googleusercontent.com/proxy/6xZIJGouYlb7gTwk2WMOXGe2wWuI_O4GeFrZDckfG_urpMjNwFq9I625NIf1R9gsB6WqhbcBo42l_HbNhCTfrBo");
+ position: fixed;
+ min-width: 100%;
+ min-height: 100%;
+ background-size: cover;
+ background-position: center;
 }
 
 .App-logo {

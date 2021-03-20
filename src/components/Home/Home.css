@@ -1,0 +1,27 @@
+.card-box {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    margin-top: 110px;
+    padding-bottom: 200px;
+}
+
+.home {
+background-image: url("https://lh3.googleusercontent.com/proxy/6xZIJGouYlb7gTwk2WMOXGe2wWuI_O4GeFrZDckfG_urpMjNwFq9I625NIf1R9gsB6WqhbcBo42l_HbNhCTfrBo");
+ position: fixed;
+ background-color: #4040a1;
+ min-width: 100%;
+ min-height: 100%;
+ background-size: cover;
+ background-position: center;
+ padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+   .card-box{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 30px;
+   }
+
+}
