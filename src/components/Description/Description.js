@@ -5,6 +5,8 @@ import { userContext } from '../../App';
 import { carContext } from '../../App';
 import { useParams } from 'react-router';
 import carData from '../.././data/data.json';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUserFriends } from '@fortawesome/free-solid-svg-icons';
 
 const containerStyle = {
     width: '400px',
@@ -99,6 +101,7 @@ const Description = () => {
                                 <div class="single-car-box">
                                 <img className="car-img" src={carImg.image} alt="" srcset=""/>
                                 <p><span className="name">{carImg.name}</span></p>
+                                <p><span className="name"><FontAwesomeIcon icon={faUserFriends} />  {carImg.passengers}</span></p>
                                 <p><span className="name">{carImg.fare}</span></p>
                                 </div>
                             </div>
@@ -106,6 +109,7 @@ const Description = () => {
                             <div class="single-car-box">
                                 <img className="car-img" src={carImg.image} alt="" srcset=""/>
                                 <p><span className="name">{carImg.name}</span></p>
+                                <p><span className="name"><FontAwesomeIcon icon={faUserFriends}/>  {carImg.passengers}</span></p>
                                 <p><span className="name">{carImg.fare}</span></p>
                                 </div>
                             </div>
@@ -113,6 +117,7 @@ const Description = () => {
                             <div class="single-car-box">
                                 <img className="car-img" src={carImg.image} alt="" srcset=""/>
                                 <p><span className="name">{carImg.name}</span></p>
+                                <p><span className="name"><FontAwesomeIcon icon={faUserFriends} />  {carImg.passengers}</span></p>
                                 <p><span className="name">{carImg.fare}</span></p>
                                 </div>
                             </div>

@@ -3,6 +3,8 @@ import firebase from "firebase/app";
 import "firebase/auth";
 import { firebaseConfig } from './firebase.config';
 import './Login.css';
+import { faGoogle } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useHistory, useLocation } from 'react-router';
 import { userContext } from '../../App';
 
@@ -66,7 +68,6 @@ const Login = () => {
         }
         setLoggedInUser(signedInUser);
         history.replace(from);
-        console.log(displayName, email);
       })
       .catch(err => {
         console.log(err);
@@ -79,6 +80,7 @@ const Login = () => {
             <div className="login">
                 <h3>Login</h3>
                 <form onSubmit={handleSubmit}>
+                <input className="email" onBlur={handleBlur} type="text" name="name" placeholder="Name" required /><br />
                     <input className="email" onBlur={handleBlur} type="text" name="email" placeholder="Email" required /><br />
                     <input className="password" onBlur={handleBlur} type="password" name="password" placeholder="Password" required />
                     <input className="btn btn-success button" type="submit" value="Login" />
@@ -90,7 +92,7 @@ const Login = () => {
             </div>
             <div className="googleLogin">
                 <p>Or</p>
-                <button onClick={handleGoogleSignIn} className="btn btn-success button"> Sign in With Google</button>
+                <button onClick={handleGoogleSignIn} className="btn btn-success button"> <FontAwesomeIcon className="far fa-google fa-spin" icon={faGoogle} /> Sign in With Google</button>
             </div>
         </div>
     );

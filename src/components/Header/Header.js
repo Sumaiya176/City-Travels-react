@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import { Link } from "react-router-dom";
+import PrivateRoute from '../PrivateRoute/PrivateRoute';
 
 const Header = () => {
     return (

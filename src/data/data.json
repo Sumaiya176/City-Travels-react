@@ -1,6 +1,7 @@
 [{
     "id": 1,
     "name": "BIKE",
+    "passengers": 1,
     "first_location": "Rampura",
     "last_location": "Dhanmondi",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWqD7IozejgfSRR3TWFLimZ_wHD4QtJrHLYQ&usqp=CAU",
@@ -8,6 +9,7 @@
   }, {
     "id": 2,
     "name": "CAR",
+    "passengers": 4,
     "first_location": "Mirpur",
     "last_location": "Badda",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Bi8qR3n4pnZ6HiZE0dGiVyMCmC4GfL0ewQ&usqp=CAU",
@@ -15,6 +17,7 @@
   }, {
     "id": 3,
     "name": "BUS",
+    "passengers": 2,
     "first_location": "Motijheel",
     "last_location": "Uttara",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD0_BIJrvhoKCeReYYBxQSlcmP1E9D0vFn8g&usqp=CAU",
@@ -22,6 +25,7 @@
   }, {
     "id": 4,
     "name": "TRAIN",
+    "passengers": 5,
     "first_location": "Kamalapur",
     "last_location": "Airport",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrJ4T8j0aKb2knc-Ur8fulbNu5eFK3tSmgHQ&usqp=CAU",
@@ -29,6 +33,7 @@
   }, {
     "id": 5,
     "name": "CNG",
+    "passengers": 3,
     "first_location": "Kamalapur",
     "last_location": "Airport",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyiG4rum7pjnP0tGMgqnLY0dO_wQGCwIxhYA&usqp=CAU",
@@ -36,6 +41,7 @@
   }, {
     "id": 6,
     "name": "PLANE",
+    "passengers": 2,
     "first_location": "Kamalapur",
     "last_location": "Airport",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiD5KHjiYxRAEDMd_yWxlkZMzzfw9M7PRuwQ&usqp=CAU",

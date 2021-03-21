@@ -12,7 +12,7 @@ const Home = () => {
     // }, [])
     return (
         <div className="home">
-            <div className="card-box justify-content-center">
+            <div className="row card-box justify-content-center">
          {
               cars.map(car => <Car car={car} key={car.id}></Car>)
           }

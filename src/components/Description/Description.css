@@ -7,12 +7,12 @@
 .des-box {
     background-color:rgb(247, 239, 239);
     border-radius:7px;
-    padding: 14px;
+    padding: 24px;
 }
 
 .button {
     border: none;
-    margin-top: 10px;
+    margin-top: 20px;
     width: 100%;
 }
 
@@ -29,9 +29,8 @@
 }
 
 .location {
-    border: 1px solid black;
     width: 100%;
-    padding:20px;
+    padding:30px;
     border-radius: 7px;
     background-color: rgb(250, 113, 89);
    
@@ -42,8 +41,7 @@
 
 .car-img {
     height: 70px;
-    width: 80px;
-
+    width: 80px; 
 }
 
 .img-box {
@@ -54,18 +52,17 @@
 
 .single-car-box{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     grid-gap: 15px;
     justify-content: center;
 }
 
-.name {
-    padding: 20px ;
+p .name {
     text-align: center;
-    padding-top: 10px;
+    padding: 15px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .description {
         display: block;
         margin: 0px 100px;
