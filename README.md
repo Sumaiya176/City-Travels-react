@@ -1,6 +1,23 @@
-Website name: City Travels
+# City Travels
 
-Features: This is CITY TRAVELS. There has some significant vehicales. Yp=ou can choice your suitable one and by clicking on them you can fix your start to end places. And also there has a map for your assistance. But one thing is that before going to the details page you have to login successfully.
+Live site:  https://city-travels-e9873.web.app/
+
+Features:
+  - An online ride share platform
+  - Has some significant vehicles in Bangladesh
+  - One can choice your suitable one for riding
+  - One can set their start to end point
+  - Has a map for assistance 
+  - Before going to the details page users have to login successfully
+
+Frontend Technologies:
+  - HTML
+  - CSS
+  - Bootstrap
+  - React.js
+  - firebase-auth
+
+Deployed in: 
+  - Netlify
 
 
-Live site link:  https://city-travels-e9873.web.app/
